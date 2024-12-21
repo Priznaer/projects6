@@ -1,0 +1,45 @@
+header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+    
+header details {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header details li {
+    list-style: none;
+}
+
+.container {
+    max-width: 800px !important;
+}
+
+.d3 input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+.form-line {
+    display: flex;
+    margin: 10px 0;
+}
+
+.grouped-inputs {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width:78%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
